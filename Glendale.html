@@ -18,56 +18,62 @@
         </div>
     </header>
     <main>
-        <div id="1Star">
-            <h1>1 Star Tricks:</h1>
-            <div id="cards">
-                <div id="card">
-                    <h3>Side Toss Single:</h3>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/DLfpi5i_N4U?si=2-RZpvwhAUbKI90y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div id="cont">
+            <div id="1Star">
+                <h1>1 Star Tricks:</h1>
+                <div id="cards">
+                    <div id="card">
+                    </div>
+                    <div id="card">
+                    </div>
+                    <div id="card">
+                    </div>
+                    <div id="card">
+                    </div>
+                    <div id="card">
+                    </div>
+                    <div id="card">
+                    </div>
+                    <div id="card">
+                    </div>
+                    <div id="card">
+                    </div>
+                    <div id="card">
+                    </div>
+                    <div id="card">
+                    </div>
+                    <div id="card">
+                    </div>
+                    <div id="card">
+                    </div>
+                    <div id="card">
+                    </div>
+                    <div id="card">
+                    </div>
                 </div>
-                <div id="card">
-                    <h3>Right Handed Drag:</h3>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/1YwjQd31peY?si=ajgNvA_NQHqA7oox" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                </div>
-                <div id="card">
-                    <h3>Foot Stop BTB:</h3>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/tNtY9xM3dqs?si=dIIoJ0VvIO6GSmi_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                </div>
-                <div id="card">
-                    <h3></h3>
-                </div>
-                <div id="card">
-                    <h3></h3>
-                </div>
-                <div id="card">
-                    <h3></h3>
-                </div>
-                <div id="card">
-                    <h3></h3>
-                </div>
-                <div id="card">
-                    <h3></h3>
-                </div>
-                <div id="card">
-                    <h3></h3>
-                </div>
-                <div id="card">
-                    <h3></h3>
-                </div>
-                <div id="card">
-                    <h3></h3>
-                </div>
-                <div id="card">
-                    <h3></h3>
-                </div>
-                <div id="card">
-                    <h3></h3>
-                </div>
-                <div id="card">
-                    <h3></h3>
+            </div>
+            <div id="2star">
+                <h1>2 Star Tricks:</h1>
+                <div id="cards">
+                    <div id="card"></div>
+                    <div id="card"></div>
+                    <div id="card"></div>
+                    <div id="card"></div>
+                    <div id="card"></div>
                 </div>
             </div>
         </div>
     </main>
 </body>
+<script>
+    const cards = document.querySelectorAll("#card")
+    fetch("links.json").then(data => data.json()).then(data=>{
+        for(let i = 0; i < [...cards].length; i++){
+            let now = [...cards][i]
+            now.innerHTML = `<h3>${data[i]["name"]}:</h3> \n <iframe width="560" height="315" src=${data[i]["link"]} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
+        }
+        // let first = cards.firstElementChild
+        // first.innerHTML = `<h3>${data[1]["name"]}:</h3> \n <iframe width="560" height="315" src=${data[1]["link"]} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
+    })
+</script>
 </html>

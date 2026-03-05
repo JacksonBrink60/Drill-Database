@@ -1,12 +1,78 @@
-[
-    {
-        "STS":{
-            "id":1,
-            "link": "https://www.youtube.com/embed/DLfpi5i_N4U?si=2-RZpvwhAUbKI90y"
-        },
-        "RHD":{
-            "id":2,
-            "link": "https://www.youtube.com/embed/1YwjQd31peY?si=ajgNvA_NQHqA7oox"
-        }
+{
+    "0":{
+        "name":"Side Toss Single",
+        "link": "https://www.youtube.com/embed/DLfpi5i_N4U?si=2-RZpvwhAUbKI90y"
+    },
+    "1":{
+        "name":"Right Handed Drag",
+        "link": "https://www.youtube.com/embed/1YwjQd31peY?si=ajgNvA_NQHqA7oox"
+    },
+    "2":{
+        "name":"Foot Stop BTB",
+        "link": "https://www.youtube.com/embed/tNtY9xM3dqs?si=dIIoJ0VvIO6GSmi_"
+    },
+    "3":{
+        "name":"Foot Stop From Continuous",
+        "link": "https://youtube.com/embed/POaEcjPpy0w?si=FPg04hGs2gCcEpi4"
+    },
+    "4":{
+        "name":"Foot Stop From Single",
+        "link": "https://youtube.com/embed/0UzmlTPiH_4?si=9XRKDGTU_dC9EifP"
+    },
+    "5":{
+        "name":"Right Hand Fire Knife",
+        "link": "https://youtube.com/embed/Q2KVCyCkZe4?si=Msv_B-tw0GMZnf0e"
+    },
+    "6":{
+        "name":"Rising Sun",
+        "link": "https://youtube.com/embed/V0grzFZ8UhI?si=z_MTr2kFoh5Jmlun"
+    },
+    "7":{
+        "name":"C Set",
+        "link": "https://youtube.com/embed/ydlvEmTk5mU?si=vIlvz1azso3rCSvC"
+    },
+    "8":{
+        "name":"Port Spin",
+        "link": "https://youtube.com/embed/UEef0xGpy4o?si=LvpJz0bd-7C4GXp9"
+    },
+    "9":{
+        "name":"Single Back",
+        "link": "https://youtube.com/embed/XlHogd-M-cM?si=JM0XLD2BdS4o5WCd"
+    },
+    "10":{
+        "name":"Two Hand Continuous",
+        "link": "https://youtube.com/embed/3b4_y5uAMkY?si=wR-YRskFtdzbXfvm"
+    },
+    "11":{
+        "name":"Right Hand Continuous",
+        "link": "https://youtube.com/embed/4PtNZKA0Ffs?si=K4Xodv9F1-KvUXMv"
+    },
+    "12":{
+        "name":"Left Hand Continuous",
+        "link": "https://youtube.com/embed/BknzT5En0t4?si=Z6kQm_PwadpC91qw"
+    },
+    "13":{
+        "name":"Single Spin",
+        "link": "https://youtube.com/embed/h_RozWcOcXM?si=72WkbykU6ClbSK9l"
+    },
+    "14":{
+        "name":"Double Side Toss",
+        "link":"https://youtube.com/embed/DSzrFpRuKSc?si=FBUznNE-Q1ei9B_P"
+    },
+    "15":{
+        "name":"Double Left Left",
+        "link":"https://youtube.com/embed/8uH1uQ0C28Y?si=j46mh_HfCeH7TUYR"
+    },
+    "16":{
+        "name":"OTH LH Continuous",
+        "link":"https://youtube.com/embed/IhaF4_hRKCQ?si=nPT5icIro3MxJZ3x"
+    },
+    "17":{
+        "name":"Over The Head (OTH) Single Spin",
+        "link":"https://youtube.com/embed/e-eKGBT8HKc?si=DEdI_-oGJ32nKXUL"
+    },
+    "18":{
+        "name":"Rising Sun Double Exit",
+        "link":"https://youtube.com/embed/w7TOp0Gw7y4?si=luhsiJPEexE7OaW4"
     }
-]
+}
