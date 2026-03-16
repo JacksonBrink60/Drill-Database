@@ -21,27 +21,27 @@
         <div id="basics">
             <h1>Basics:</h1>
             <div id="cards">
-                <div id="card">
+                <div class="card">
                     <h3>Attention:</h3>
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/bTXkPx1LkBk?si=5H2VagTOcm7SQ-_u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
-                <div id="card">
+                <div class="card">
                     <h3>Port Arms:</h3>
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/NFnMw-fCwWo?si=mleTx_IeyIVwux7-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
-                <div id="card">
+                <div class="card">
                     <h3>Right Shoulder:</h3>
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/a37ovqdz6pQ?si=EC-l5WDMddGT9BMN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
-                <div id="card">
+                <div class="card">
                     <h3>Left Shoulder:</h3>
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/jQ7yrp0x-d0?si=DVWGQvsm5n4ZcFni" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
-                <div id="card">
+                <div class="card">
                     <h3>Present Arms:</h3>
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/1UzR7Rfp3zo?si=qL31p5gZjTkNquiv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
-                <div id="card">
+                <div class="card">
                     <h3>Beats and Rhythms:</h3>
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/We-QMhcg7Sw?si=7En0vQFaJRUkzUE2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
@@ -50,4 +50,15 @@
         </div>
     </main>
 </body>
+<script>
+    async function getData() {
+        try{
+            const response = await fetch("http://localhost:3000/api");
+            const data = await response.json();
+        } catch(err){
+            console.error("Error:", err)
+        }
+    }
+    getData()
+</script>
 </html>
