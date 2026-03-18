@@ -25,10 +25,6 @@ a:visited{
     text-decoration: none;
 }
 
-a:hover{
-    cursor: pointer;
-}
-
 #sections{
     flex-wrap: wrap;
     display: flex;
@@ -42,7 +38,7 @@ main{
     justify-content: center;
 }
 
-#cards{
+.cards{
     flex-wrap: wrap;
     display: flex;
     width: 1650px;

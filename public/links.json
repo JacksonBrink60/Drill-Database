@@ -1,6 +1,120 @@
 {
     "main":{
+        "0":{
+            "name":"Attention",
+            "link":"https://www.youtube.com/embed/bTXkPx1LkBk?si=5H2VagTOcm7SQ-_u"
+        },
+        "1":{
+            "name":"Port Arms",
+            "link":"https://www.youtube.com/embed/NFnMw-fCwWo?si=mleTx_IeyIVwux7-"
+        },
+        "2":{
+            "name":"Right Shoulder",
+            "link":"https://www.youtube.com/embed/a37ovqdz6pQ?si=EC-l5WDMddGT9BMN"
+        },
+        "3":{
+            "name":"Left Shoulder",
+            "link":"https://www.youtube.com/embed/jQ7yrp0x-d0?si=DVWGQvsm5n4ZcFni"
+        },
+        "4":{
+            "name":"Present Arms",
+            "link":"https://www.youtube.com/embed/1UzR7Rfp3zo?si=qL31p5gZjTkNquiv"
+        },
+        "5":{
+            "name":"Beats and Rhythms",
+            "link":"https://www.youtube.com/embed/We-QMhcg7Sw?si=7En0vQFaJRUkzUE2"
+        }
+    },
 
+    "dd":{
+        "0":{
+            "name":"False Spins",
+            "link":"https://www.youtube.com/embed/5-vgl56y12Q?si=gZg83y71fn2Jq_K5"
+        },
+        "1":{
+            "name":"3 Count Box",
+            "link":"https://www.youtube.com/embed/PJHSFXBFqdE?si=0lPSakqpvzViJScs"
+        },
+        "2":{
+            "name":"4 Count Box",
+            "link":"https://www.youtube.com/embed/nzxtt1m3nP4?si=VxJSuN4Zy1y2BfcP"
+        },
+        "3":{
+            "name":"5 Count Box",
+            "link":"https://www.youtube.com/embed/ZqWwxa1W5uU?si=wRxbIhmPyVd87jp8"
+        },
+        "4":{
+            "name":"6 Count Box",
+            "link":"https://www.youtube.com/embed/78iEnbv0_Pk?si=PLQ8ONmbMwc2Mjm4"
+        },
+        "5":{
+            "name":"7 Count Box",
+            "link":"https://www.youtube.com/embed/l3KGhjqOIXI?si=cq5gT1m4KMzmuhnR"
+        },
+        "6":{
+            "name":"Left Hand Single Spin",
+            "link":"https://www.youtube.com/embed/9CTvAdNgnhg?si=QELZnEvNjZBLNlYL"
+        },
+        "7":{
+            "name":"Right Hand Single Spin",
+            "link":"https://www.youtube.com/embed/0iiRf9n_g9Y?si=8rVJLt0wFRBoHiyn"
+        },
+        "8":{
+            "name":"Single Back",
+            "link":"https://www.youtube.com/embed/3wv2xR72h00?si=WrasgDe77lBX6V_3"
+        },
+        "9":{
+            "name":"Continuous Spins",
+            "link":"https://www.youtube.com/embed/QnqsO_skfk0?si=bENLqEfcMJ_iZmXf"
+        },
+        "10":{
+            "name":"DSP Roll-Up",
+            "link":"https://www.youtube.com/embed/5Iq0Wb9X8wo?si=3P32UKhKtIWM2QLQ"
+        },
+        "11":{
+            "name":"Two Handed Spins",
+            "link":"https://www.youtube.com/embed/AAWW7EusYgs?si=IV7FsOx-kqAkDdXe"
+        },
+        "12":{
+            "name":"Windmill",
+            "link":"https://www.youtube.com/embed/BoDzlLSB4Pw?si=_RimftNBH652tmAs"
+        },
+        "13":{
+            "name":"Side Toss",
+            "link":"https://www.youtube.com/embed/UrEeSvX0e_8?si=T5QWyHg8iEBunAYO"
+        },
+        "14":{
+            "name":"K-Aerial",
+            "link":"https://www.youtube.com/embed/PvG10xzzvVs?si=o1qSQfmB9w687EgI"
+        },
+        "15":{
+            "name":"Single Shoulder Toss",
+            "link":"https://www.youtube.com/embed/uCIWC__Av_s?si=PUTVmvNwl0-kdrMr"
+        },
+        "16":{
+            "name":"1.5 Shoulder Toss",
+            "link":"https://www.youtube.com/embed/55ZUsI3sqys?si=ydRA-1Ri3qzeM8XD"
+        },
+        "17":{
+            "name":"Double Shoulder Toss",
+            "link":"https://www.youtube.com/embed/2CHHqkvFRug?si=dgbolG9UjIgeOPFf"
+        },
+        "18":{
+            "name":"Double Aerial",
+            "link":"https://www.youtube.com/embed/CH5TigqEFtA?si=y9NP0_kHG81opNCX"
+        },
+        "19":{
+            "name":"Triple Aerial",
+            "link":"https://www.youtube.com/embed/64G1uHvAlnM?si=cfzbtfHR8zUHRkyl"
+        },
+        "20":{
+            "name":"Neck Wrap",
+            "link":"https://www.youtube.com/embed/vEaBAtcLcn8?si=lPuGZbYyHQsxJr3k"
+        },
+        "21":{
+            "name":"Back Drop (Waterfall)",
+            "link":"https://www.youtube.com/embed/G9Kilnj2qv4?si=Hqpdx6v2muizTqeI"
+        }
     },
     
     "glen":{
@@ -63,59 +177,59 @@
             }
         },
         "2star":{
-            "14":{
+            "0":{
                 "name":"Double Side Toss",
                 "link":"https://youtube.com/embed/DSzrFpRuKSc?si=FBUznNE-Q1ei9B_P"
             },
-            "15":{
+            "1":{
                 "name":"Double Left Left",
                 "link":"https://youtube.com/embed/8uH1uQ0C28Y?si=j46mh_HfCeH7TUYR"
             },
-            "16":{
+            "2":{
                 "name":"OTH LH Continuous",
                 "link":"https://youtube.com/embed/IhaF4_hRKCQ?si=nPT5icIro3MxJZ3x"
             },
-            "17":{
+            "3":{
                 "name":"Over The Head (OTH) Single Spin",
                 "link":"https://youtube.com/embed/e-eKGBT8HKc?si=DEdI_-oGJ32nKXUL"
             },
-            "18":{
+            "4":{
                 "name":"Rising Sun Double Exit",
                 "link":"https://youtube.com/embed/w7TOp0Gw7y4?si=luhsiJPEexE7OaW4"
             }
         },
         "3star":{
-            "19":{
+            "0":{
                 "name":"Flyin Hawaiian",
                 "link":"https://youtube.com/embed/L9odtrFxTzg?si=8HXI_g_7xFQ4Qnql"
             },
-            "20":{
+            "1":{
                 "name":"Triple Side Toss",
                 "link":"https://youtube.com/embed/jj-gXAXuCOY?si=h6YZMLSinOYbAGMV"
             },
-            "21":{
+            "2":{
                 "name":"Triple Left Left",
                 "link":"https://youtube.com/embed/eoIGsaMGjfk?si=NR-VYGcNADUmJ65N"
             },
-            "22":{
+            "3":{
                 "name":"Palm Spin",
                 "link":"https://youtube.com/embed/8NtUP9TYado?si=QXw-lSRc6LazdarK"
             },
-            "23":{
+            "4":{
                 "name":"Double Rising Sun",
                 "link":"https://youtube.com/embed/HkB5L88e3Gg?si=jOigxzBCaGjHyjFI"
             },
-            "24":{
+            "5":{
                 "name":"Two Rifle Continuous",
                 "link":"https://youtube.com/embed/ygwN1ZFsf4U?si=Ortnc1DlhgbGzfh1"
             }
         },
         "4star":{
-            "25":{
+            "0":{
                 "name":"Flyin' Floridian",
                 "link":"https://youtube.com/embed/KodmpCoMBps?si=COybxrVwIyQkore-"
             },
-            "26":{
+            "1":{
                 "name":"Triple Rising Sun",
                 "link":"https://youtube.com/embed/OrinwT2xMyA?si=2Egb6aESWgq93nPE"
             }

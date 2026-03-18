@@ -20,8 +20,8 @@
     <main>
         <div id="basics">
             <h1>Basics:</h1>
-            <div id="cards">
-                <div class="card">
+            <div class="cards" id="cont">
+                <!-- <div class="card">
                     <h3>Attention:</h3>
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/bTXkPx1LkBk?si=5H2VagTOcm7SQ-_u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
@@ -44,8 +44,8 @@
                 <div class="card">
                     <h3>Beats and Rhythms:</h3>
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/We-QMhcg7Sw?si=7En0vQFaJRUkzUE2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                </div>
-                <p id="disclaimer">*DISCLAIMER: Information on specifics are subject to interpretation. There is not a set in stone way to do things and in most cases it is up to what is in the SOP to my knowledge*</p>
+                </div> -->
+                <!-- <p id="disclaimer">*DISCLAIMER: Information on specifics are subject to interpretation. There is not a set in stone way to do things and in most cases it is up to what is in the SOP to my knowledge*</p> -->
             </div>
         </div>
     </main>
@@ -60,5 +60,23 @@
         }
     }
     getData()
+    function createCard(elem){
+        let card = document.createElement("div")
+        card.classList.add("card")
+        card.innerHTML = `<h3>${elem.name}:</h3> \n <iframe width="560" height="315" src=${elem.link} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
+        return card
+    }
+
+    const cont = document.getElementById("cont")
+    fetch("links.json").then(data => data.json()).then(data=>{
+        for(i=0; i < Object.keys(data["main"]).length; i++){
+            cont.append(createCard(data["main"][i]))
+        }
+        let disclaimer = document.createElement("p#disclaimer")
+        disclaimer.innerHTML = '<p id="disclaimer">*DISCLAIMER: Information on specifics are subject to interpretation. There is not a set in stone way to do things and in most cases it is up to what is in the SOP to my knowledge*</p>'
+        disclaimer.style.width = "100%"
+        cont.append(disclaimer)
+    })
+
 </script>
 </html>

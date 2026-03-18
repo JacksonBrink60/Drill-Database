@@ -19,9 +19,9 @@
     </header>
     <main>
         <div id="cont">
-            <div id="1Star">
+            <div>
                 <h1>1 Star Tricks:</h1>
-                <!-- <div id="cards"> -->
+                <div id="1star" class="cards">
                     <!-- <div id="card"></div> -->
                     <!-- <div id="card"></div> -->
                     <!-- <div id="card"></div> -->
@@ -36,35 +36,35 @@
                     <!-- <div id="card"></div> -->
                     <!-- <div id="card"></div> -->
                     <!-- <div id="card"></div> -->
-                <!-- </div> -->
+                </div>
             </div>
-            <div id="2star">
+            <div>
                 <h1>2 Star Tricks:</h1>
-                <!-- <div id="cards"> -->
+                <div id="2star" class="cards">
                     <!-- <div id="card"></div> -->
                     <!-- <div id="card"></div> -->
                     <!-- <div id="card"></div> -->
                     <!-- <div id="card"></div> -->
                     <!-- <div id="card"></div> -->
-                <!-- </div> -->
+                </div>
             </div>
-            <div id="3star">
+            <div>
                 <h1>3 Star Tricks:</h1>
-                <!-- <div id="cards"> -->
+                <div id="3star" class="cards">
                     <!-- <div id="card"></div> -->
                     <!-- <div id="card"></div> -->
                     <!-- <div id="card"></div> -->
                     <!-- <div id="card"></div> -->
                     <!-- <div id="card"></div> -->
                     <!-- <div id="card"></div> -->
-                <!-- </div> -->
+                </div>
             </div>
-            <div id="4star">
+            <div>
                 <h1>4 Star Tricks:</h1>
-                <!-- <div id="cards"> -->
+                <div id="4star" class="cards">
                     <!-- <div id="card"></div> -->
                     <!-- <div id="card"></div> -->
-                <!-- </div> -->
+                </div>
             </div>
         </div>
     </main>
@@ -93,7 +93,19 @@
         // first.innerHTML = `<h3>${data[1]["name"]}:</h3> \n <iframe width="560" height="315" src=${data[1]["link"]} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
         console.log(data["glen"]["1star"][0])
         console.log(createCard(data["glen"]["1star"][0]))
-        oneStar.append(createCard(data["glen"]["1star"][0]))
+        console.log(Object.keys(data["glen"]["1star"]).length)
+        for(i=0; i < Object.keys(data["glen"]["1star"]).length; i++){
+            oneStar.append(createCard(data["glen"]["1star"][i]))
+        }
+        for(i=0; i < Object.keys(data["glen"]["2star"]).length; i++){
+            twoStar.append(createCard(data["glen"]["2star"][i]))
+        }
+        for(i=0; i < Object.keys(data["glen"]["3star"]).length; i++){
+            threeStar.append(createCard(data["glen"]["3star"][i]))
+        }
+        for(i=0; i < Object.keys(data["glen"]["4star"]).length; i++){
+            fourStar.append(createCard(data["glen"]["4star"][i]))
+        }
     })
 </script>
 </html>
